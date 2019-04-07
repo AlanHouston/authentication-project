@@ -53,6 +53,7 @@ class App extends Component {
       <SignUpSignIn 
         error={this.state.signUpSignInError} 
         onSignUp={this.handleSignUp} 
+        onSignIn={this.handleSignIn}
       />
     );
   }
